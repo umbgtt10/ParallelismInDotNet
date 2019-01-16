@@ -1,4 +1,6 @@
-﻿namespace CriticalSections
+﻿using Common;
+
+namespace Common
 {
     public class UnsafeBank : Bank
     {
@@ -12,6 +14,12 @@
         public void Withdraw(int amount)
         {
             Balance -= amount;
+        }
+
+        public void Transfer(Bank where, int amount)
+        {
+            where.Withdraw(amount);
+            Balance += amount;
         }
     }
 }

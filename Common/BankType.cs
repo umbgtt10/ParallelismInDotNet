@@ -1,4 +1,4 @@
-﻿namespace CriticalSections
+﻿namespace Common
 {
     public enum BankType
     {

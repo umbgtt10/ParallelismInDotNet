@@ -1,6 +1,7 @@
-﻿using System.Threading;
+﻿using Common;
+using System.Threading;
 
-namespace CriticalSections
+namespace Common
 {
     public class MonitoredBank : Bank
     {

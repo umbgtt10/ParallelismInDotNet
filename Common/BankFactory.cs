@@ -1,6 +1,6 @@
 ﻿using System;
 
-namespace CriticalSections
+namespace Common
 {
     public partial class BankFactory
     {

@@ -1,17 +1,19 @@
 ﻿using Common;
 using System;
 using System.Collections.Generic;
+using System.Linq;
+using System.Text;
 using System.Threading.Tasks;
 
-namespace CriticalSections
+namespace Locking
 {
     class Program
     {
-        public static void SynchronizeAtBankLevelUnsafe()
+        public static void SynchronizeAtBankLevelLocking()
         {
             var tasks = new List<Task>();
             var number = new Random();
-            var bank = new BankFactory().Build(BankType.Unsafe);
+            var bank = new BankFactory().Build(BankType.LockedBank);
 
             tasks.Add(Task.Factory.StartNew(() =>
             {
@@ -21,6 +23,7 @@ namespace CriticalSections
                     Console.WriteLine($"Task: {Task.CurrentId} is depositing 1 buck.");
                 }
             }));
+
 
             tasks.Add(Task.Factory.StartNew(() =>
             {
@@ -38,7 +41,7 @@ namespace CriticalSections
 
         static void Main(string[] args)
         {
-            SynchronizeAtBankLevelUnsafe();
+            SynchronizeAtBankLevelLocking();
 
             Console.ReadKey();
         }

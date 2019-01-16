@@ -1,7 +1,8 @@
-﻿using System;
+﻿using Common;
+using System;
 using System.Threading;
 
-namespace CriticalSections
+namespace Common
 {
     public class InterlockedBank : Bank
     {

@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{C2A1229C-BD04-4E96-9EA1-5C0BDE2ED9D9}</ProjectGuid>
+    <ProjectGuid>{11B5BD24-9D74-4BBE-A71E-0FBB1529B71F}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>CriticalSections</RootNamespace>
-    <AssemblyName>CriticalSections</AssemblyName>
+    <RootNamespace>SpinLocking</RootNamespace>
+    <AssemblyName>SpinLocking</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

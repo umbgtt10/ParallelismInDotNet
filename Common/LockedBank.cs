@@ -1,4 +1,6 @@
-﻿namespace CriticalSections
+﻿using Common;
+
+namespace Common
 {
     public class LockedBank : Bank
     {
