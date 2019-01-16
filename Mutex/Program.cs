@@ -87,9 +87,27 @@ namespace Mutex
 
         static void Main(string[] args)
         {
-            SynchronizeAtTaskLevelMutex();
+            const string appName = "MutexExample";
+            System.Threading.Mutex mutex;
+            try
+            {
+                mutex = System.Threading.Mutex.OpenExisting(appName);
+                Console.WriteLine($"Sorry, {appName} is already running.");
 
-            Console.ReadKey();
+                return;                
+            }
+            catch (WaitHandleCannotBeOpenedException e)
+            {
+                Console.WriteLine("We can run the program just fine.");
+                // first arg = whether to give current thread initial ownership
+                mutex = new System.Threading.Mutex(false, appName);
+
+                SynchronizeAtTaskLevelMutex();
+
+                Console.ReadKey();
+            }            
         }
     }
 }
+
+
