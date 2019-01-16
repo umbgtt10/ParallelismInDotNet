@@ -43,6 +43,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskContinuation", "TaskCon
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ChildTasks", "ChildTasks\ChildTasks.csproj", "{B7F44746-6CAB-442D-9C4C-0CB2C0109B58}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Barrier", "Barrier\Barrier.csproj", "{D9F3E6E7-638C-4525-A2F6-60E520BB78AF}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -113,6 +115,10 @@ Global
 		{B7F44746-6CAB-442D-9C4C-0CB2C0109B58}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{B7F44746-6CAB-442D-9C4C-0CB2C0109B58}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{B7F44746-6CAB-442D-9C4C-0CB2C0109B58}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9F3E6E7-638C-4525-A2F6-60E520BB78AF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9F3E6E7-638C-4525-A2F6-60E520BB78AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9F3E6E7-638C-4525-A2F6-60E520BB78AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9F3E6E7-638C-4525-A2F6-60E520BB78AF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -134,6 +140,7 @@ Global
 		{FCF91F4D-12E2-44FE-83E4-AE6FE74369E7} = {6F8938D3-B43F-4C6F-896E-ED9E839BC512}
 		{4E48F1BB-9EA1-4E7B-94F9-72BBF727ABD0} = {98B70080-1D64-4A6E-93F9-5791EF11929C}
 		{B7F44746-6CAB-442D-9C4C-0CB2C0109B58} = {98B70080-1D64-4A6E-93F9-5791EF11929C}
+		{D9F3E6E7-638C-4525-A2F6-60E520BB78AF} = {98B70080-1D64-4A6E-93F9-5791EF11929C}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0C42738-D35D-45FC-94D7-4853D6AC54A1}
