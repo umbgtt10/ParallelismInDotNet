@@ -46,7 +46,9 @@
     <Compile Include="Bank.cs" />
     <Compile Include="BankFactory.cs" />
     <Compile Include="BankType.cs" />
+    <Compile Include="InterlockedBank.cs" />
     <Compile Include="LockedBank.cs" />
+    <Compile Include="MonitoredBank.cs" />
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
     <Compile Include="UnsafeBank.cs" />

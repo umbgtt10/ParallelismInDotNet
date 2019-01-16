@@ -28,7 +28,7 @@
         {
             lock (_padlock)
             {
-                Balance += amount;
+                _balance += amount;
             }
         }
 
@@ -36,7 +36,7 @@
         {
             lock (_padlock)
             {
-                Balance -= amount;
+                _balance -= amount;
             }
         }
     }
