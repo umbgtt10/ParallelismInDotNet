@@ -4,10 +4,10 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
-    <ProjectGuid>{D9F3E6E7-638C-4525-A2F6-60E520BB78AF}</ProjectGuid>
+    <ProjectGuid>{A2675160-EBDA-4047-9C86-B150DE9E85C6}</ProjectGuid>
     <OutputType>Exe</OutputType>
-    <RootNamespace>Barrier</RootNamespace>
-    <AssemblyName>Barrier</AssemblyName>
+    <RootNamespace>CountdownEvents</RootNamespace>
+    <AssemblyName>CountdownEvents</AssemblyName>
     <TargetFrameworkVersion>v4.7.1</TargetFrameworkVersion>
     <FileAlignment>512</FileAlignment>
     <AutoGenerateBindingRedirects>true</AutoGenerateBindingRedirects>

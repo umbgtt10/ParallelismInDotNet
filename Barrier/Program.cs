@@ -5,11 +5,11 @@ using System.Text;
 using System.Threading;
 using System.Threading.Tasks;
 
-namespace Barrier
+namespace Barriers
 {
     class Program
     {
-        static private System.Threading.Barrier _barrier = new System.Threading.Barrier(2, b =>
+        static private Barrier _barrier = new Barrier(2, b =>
         {
             Console.WriteLine($"Phase : {b.CurrentPhaseNumber} is finished.");
         });
