@@ -61,6 +61,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGuiWithAsync", "WpfGuiWi
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WpfGuiDispatcher", "WpfGuiDispatcher\WpfGuiDispatcher.csproj", "{1896E463-6C4B-47BD-ADF6-63A63CE1E782}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TaskParallelism", "TaskParallelism\TaskParallelism.csproj", "{070D1CBE-96A1-4A7C-9C70-1799A8FB632C}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -163,6 +165,10 @@ Global
 		{1896E463-6C4B-47BD-ADF6-63A63CE1E782}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1896E463-6C4B-47BD-ADF6-63A63CE1E782}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1896E463-6C4B-47BD-ADF6-63A63CE1E782}.Release|Any CPU.Build.0 = Release|Any CPU
+		{070D1CBE-96A1-4A7C-9C70-1799A8FB632C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{070D1CBE-96A1-4A7C-9C70-1799A8FB632C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{070D1CBE-96A1-4A7C-9C70-1799A8FB632C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{070D1CBE-96A1-4A7C-9C70-1799A8FB632C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
@@ -192,6 +198,7 @@ Global
 		{750761D2-1CF7-4DDC-ABC0-8A4F7FB2A4F5} = {94AAF6FB-15AB-40A2-B3CD-6F002A12CF15}
 		{C6F41750-E9FB-444F-9F1E-F78B8C13626E} = {94AAF6FB-15AB-40A2-B3CD-6F002A12CF15}
 		{1896E463-6C4B-47BD-ADF6-63A63CE1E782} = {94AAF6FB-15AB-40A2-B3CD-6F002A12CF15}
+		{070D1CBE-96A1-4A7C-9C70-1799A8FB632C} = {6F8938D3-B43F-4C6F-896E-ED9E839BC512}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {F0C42738-D35D-45FC-94D7-4853D6AC54A1}
